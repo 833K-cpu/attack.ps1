@@ -14,7 +14,7 @@ function Random-IP {
     return ("{0}.{1}.{2}.{3}" -f (Get-Random -Min 1 -Max 255),
                                  (Get-Random -Min 1 -Max 255),
                                  (Get-Random -Min 1 -Max 255),
-                                 (Get-Random -Min 1 -Max 255)))
+                                 (Get-Random -Min 1 -Max 255))
 }
 
 while ($true) {
@@ -32,3 +32,4 @@ while ($true) {
 
     Start-Sleep -Milliseconds 150
 }
+
