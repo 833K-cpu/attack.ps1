@@ -1,5 +1,5 @@
 Clear-Host
-$Host.UI.RawUI.WindowTitle = "DARKNET // BITCOIN MINER SIMULATOR v9.3 - Overclocked Edition with Enhanced Wallet Search"
+$Host.UI.RawUI.WindowTitle = "DARKNET // BITCOIN MINER v9.3 - Overclocked Edition with Enhanced Wallet Search"
 $Host.UI.RawUI.ForegroundColor = "Green"
 $Host.UI.RawUI.BackgroundColor = "Black"
 
@@ -206,7 +206,7 @@ while ($running) {
             Write-Host "  start [minutes] - Start mining for specified minutes (default 60, exaggeratedly long)" -ForegroundColor Green
             Write-Host "  status          - Show current miner status" -ForegroundColor Green
             Write-Host "  wallet check    - Check wallet balance" -ForegroundColor Green
-            Write-Host "  wallet transfer - Simulate a BTC transfer" -ForegroundColor Green
+            Write-Host "  wallet transfer - BTC transfer" -ForegroundColor Green
             Write-Host "  search wallet   - Re-search for a new wallet with enhanced animations" -ForegroundColor Green
             Write-Host "  clear           - Clear the screen" -ForegroundColor Green
             Write-Host "  exit            - Shutdown miner" -ForegroundColor Green
